@@ -73,7 +73,7 @@ If you have further questions, reach out to the UniFi community.
 ### Clone Repository
 
 ```sh
-git clone https://github.com/chr0w94/check_unifi.git
+git clone https://github.com/chr0w94/check_unifi.py.git
 cd check_unifi
 mv check_unifi.py /usr/lib/nagios/plugins/
 ```
