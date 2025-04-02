@@ -75,7 +75,7 @@ If you have further questions, reach out to the UniFi community.
 ```sh
 git clone https://github.com/chr0w94/check_unifi.py.git
 cd check_unifi.py
-mv check_unifi.py /usr/lib/nagios/plugins/
+mv check_unifi.py /usr/lib/nagios/plugins
 ```
 
 ## Usage
