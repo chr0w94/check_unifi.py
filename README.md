@@ -112,7 +112,6 @@ check_unifi.py -i 192.168.2.1 -a Ua7t6TuB9p1q8UgVaatm4aiwobasfh12o9 -s MySite -m
 | `0`  | OK - Utilization is below the warning level.                                     |
 | `1`  | WARNING - Utilization exceeds the warning level but is below the critical level. |
 | `2`  | CRITICAL - Utilization exceeds the critical level.                               |
-|      |                                                                                  |
 
 ## Integration in Icinga2
 
