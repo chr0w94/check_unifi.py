@@ -144,6 +144,5 @@ def main(argv):
     # Closing session
     session.close()
         
-        
 if __name__ == "__main__":
     main(sys.argv[1:])
