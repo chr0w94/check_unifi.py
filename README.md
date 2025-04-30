@@ -11,13 +11,13 @@
 - Provides structured output for monitoring tools.
 - Uses API authentication for secure communication.
 
-## Requirements
+## ✅ Requirements
 
 - Python 3
 - `requests` library (can be installed via `pip install requests`)
 
 
-# Guide to Generating a UniFi API Key
+# 📋 Guide to Generating a UniFi API Key
 
 This guide explains how to generate an API key for the UniFi Cloud Controller API.
 
@@ -78,7 +78,7 @@ cd check_unifi.py
 mv check_unifi.py /usr/lib/nagios/plugins
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the script with the following parameters:
 
@@ -105,15 +105,15 @@ check_unifi.py -i <Unifi Controller IP-Addr> -a <Unifi API-Key> -s <Unifi Site-N
 check_unifi.py -i 192.168.2.1 -a Ua7t6TuB9p1q8UgVaatm4aiwobasfh12o9 -s MySite -m cpu -d 0c:ea:16:61:41:e9 -w 80 -c 90
 ```
 
-## Exit Codes
+## 🔄 Exit Codes
 
 | Code | Meaning                                                                          |
 | ---- | -------------------------------------------------------------------------------- |
-| `0`  | OK - Utilization is below the warning level.                                     |
-| `1`  | WARNING - Utilization exceeds the warning level but is below the critical level. |
-| `2`  | CRITICAL - Utilization exceeds the critical level.                               |
+| `0`  | ✅ OK - Utilization is below the warning level.                                     |
+| `1`  | ⚠️ WARNING - Utilization exceeds the warning level but is below the critical level. |
+| `2`  | ❌ CRITICAL - Utilization exceeds the critical level.                               |
 
-## Integration in Icinga2
+## 📋 Integration in Icinga2
 
 ### unifi-commands.conf
 ```sh
@@ -225,7 +225,7 @@ object Host "unifi-U7Pro-AP" {
 
 This project is licensed under the GNU General Public License v2.0 or later. See the [LICENSE](LICENSE) file for details.
 
-## Author
+## 👤 Author
 
 Developed by chr0w94.
 
